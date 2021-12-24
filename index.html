@@ -7,21 +7,19 @@
     <title>FSD Web Development Quiz</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-
-
-
+    
 
 </head>
 <body>
-    <div class="start-btn"><button>Start Quiz</button></div>
+    <div class="start_btn"><button>Start Quiz</button></div>
 
-    <div class="info-box">
-        <div class="info-title">
+    <div class="info_box">
+        <div class="info_title">
             <span>Some rules of this quiz</span>
         </div>
-        <div class="info-list">
+        <div class="info_list">
             <div class="info">1. You will have only 15 seconds to answer each question.</div>
-            <div class="info">2. You can only sselct your answer once.</div>
+            <div class="info">2. You can only select your answer once.</div>
             <div class="info">3. Once time is up you can't select anything else.</div>
             <div class="info">4. You must remain in the quiz while you are taking it.</div>
             <div class="info">5. You will accumulate points if your answers are correct.</div>
@@ -33,19 +31,20 @@
     
     </div>
     
-    <div class="quiz-box">
+    <div class="quiz_box">
         <header>
             <div class="title">Coding Quiz</div>
             <div class="timer">
-                <div class="time-text">Time Left</div>
-                <div class="timer-sec">15</div>
+                <div class="time_text">Time Left</div>
+                <div class="timer_sec">15</div>
             </div>
+            <div class="time_line"></div>
         </header>
         <section>
-            <div class="que-text">
+            <div class="que_text">
                 <span>Which of the following is not a JavaScript variable?</span>
             </div>
-            <div class="option-list">
+            <div class="option_list">
                 <div class="option">
                     <span>div</span>
                     <div class="icon tick"><i class="fas fa-check"></i></div>
@@ -63,19 +62,19 @@
             </div>
         </section>
         <footer>
-            <div class="total-que">
+            <div class="total_que">
                 <span><p>2</p><p>of</p><p>5</p><p>Questions</p></span>
             </div>
-            <button class="next-btn">Next Question</button>
+            <button class="next_btn">Next Question</button>
         </footer>
         
     </div>
-    <div class="result-box">
+    <div class="result_box">
         <div class="icon">
             <i class="fas fa-crown"></i>
         </div>
-        <div class="complete-text">You have completed the Quiz!</div>
-        <div class="score-text">
+        <div class="complete_text">You have completed the Quiz!</div>
+        <div class="score_text">
             <span> You answered <p>2</p> out of <p> 5 </p> correctly!</span>
         </div>
         <div class="buttons">
@@ -83,9 +82,9 @@
             <button class="quit">Quit Quiz</button>
         </div>
     </div>
-    
 
-
+    <script src="questions.js"></script>
+    <script src="script.js"></script> 
     
 </body>
 </html>
